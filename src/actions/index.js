@@ -1,3 +1,7 @@
 export function selectBook(book) {
-    console.log(book.title)
+    // Action to return
+    return {
+        type: 'BOOK_SELECTED',
+        payLoad: book
+    }
 }
